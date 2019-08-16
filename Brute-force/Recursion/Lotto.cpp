@@ -14,6 +14,7 @@ void lottery(vector<int>& lotto, vector<int>& cand, int index)
             cout << cand[i] << ' ';
         }
         cout << '\n';
+        return;
     }
 
     if(index >= lotto.size())
