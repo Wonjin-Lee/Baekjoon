@@ -7,6 +7,9 @@ int set = 0;
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     string oper;
     int n, num;
     cin >> n;
