@@ -18,7 +18,7 @@ void getNM(vector<int> list, vector<int>& box, int n, int m, int index)
     if(index == n)
         return;
 
-    for(int i=0; i < n; i++)
+    for(int i=index; i < n; i++)
     {
         box.push_back(list[i]);
         getNM(list, box, n, m, i+1);
