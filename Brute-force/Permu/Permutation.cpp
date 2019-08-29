@@ -27,24 +27,6 @@ bool next_permutation(int * arr, int n)
 
 int main()
 {
-    /*
-    int n;
-    int arr[10000];
-    cin >> n;
-    for(int i=0; i < n; i++)
-        cin >> arr[i];
-
-    if(next_permutation(arr, n))
-    {
-        for(int i=0; i < n; i++)
-            cout << arr[i] << endl;
-    }
-    else
-    {
-        cout << -1 << endl;
-    }
-    */
-
    int n;
    cin >> n;
 
